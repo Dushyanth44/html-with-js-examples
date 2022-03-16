@@ -1,0 +1,13 @@
+@num=(1,2,3,999);
+
+print "$num[0]\n";
+
+print "$num[1]\n";
+
+print "$num[2]\n";
+
+print "$num[3]\n";
+
+$sum=$num[0]+$num[1]+$num[2];
+
+print "$sum\n";
