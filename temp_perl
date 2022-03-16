@@ -1,0 +1,23 @@
+print "enter any value:";
+
+$temp =<STDIN>;
+
+$f1temp = $temp . "°F";
+
+$ctemp = ($temp - 32)* 5.0/9.0;
+
+$rtemp = sprintf("%.1f", $ctemp);
+
+$c1temp = $rtemp . "°C";
+
+print "$f1temp is $c1temp\n\n";
+
+$ftemp = $temp* 9.0/5.0 + 32;
+
+$rtemp = sprintf("%.1f", $ftemp);
+
+$c2temp = $temp . "°C";
+
+$f2temp = $rtemp . "°F";
+
+print "$c2temp is $f2temp\n\n";
